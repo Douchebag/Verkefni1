@@ -79,6 +79,7 @@ h2 {
 
 h3 {
   font-size: 24px;
+  text-align: center;
 }
 
 h4 {
@@ -227,13 +228,6 @@ dl p {
   font-style: italic;
 }
 
-hr {
-  height: 1px;
-  margin-bottom: 5px;
-  border: none;
-  background: url('../images/bg_hr.png') repeat-x center;
-}
-
 table {
   border: 1px solid #373737;
   margin-bottom: 20px;
@@ -263,6 +257,7 @@ Full-Width Styles
 
 .outer {
   width: 100%;
+  background: url('../images/banner.png');
 }
 
 .inner {
@@ -270,6 +265,7 @@ Full-Width Styles
   max-width: 960px;
   padding: 20px 10px;
   margin: 0 auto;
+
 }
 
 .banner {
@@ -292,12 +288,8 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
-  background: -webkit-linear-gradient(top, #373737, #212121);
-  background: -ms-linear-gradient(top, #373737, #212121);
-  background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
+  height: 220px;
+  border-bottom: 2px solid #000;
 }
 
 #header_wrap .inner {
@@ -327,7 +319,13 @@ Full-Width Styles
 }
 
 #main_content {
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding-top: 40px;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+  border: 2px solid #000;
+  border-radius: 25px;
 }
 
 #footer_wrap {
